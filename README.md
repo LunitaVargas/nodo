@@ -1,18 +1,10 @@
-
-
-\# Proyecto Nodo - CRUD con PostgreSQL
+\# Proyecto Nodo - CRUD con Node.js y PostgreSQL
 
 
 
 \## Descripción
 
-Este proyecto fue desarrollado como actividad académica.
-
-Consiste en crear un archivo personal utilizando Markdown,
-
-conectar Node.js con una base de datos PostgreSQL y realizar
-
-las operaciones CRUD.
+Este proyecto se realizó como actividad académica. Incluye la creación de un archivo personal utilizando Markdown y el desarrollo de una aplicación en Node.js conectada a PostgreSQL para realizar operaciones CRUD.
 
 
 
@@ -32,25 +24,21 @@ las operaciones CRUD.
 
 \## Estructura del proyecto
 
+\- `personal.md`: contiene mi información personal y mis hobbies.
 
+\- `database/conexion.js`: establece la conexión con PostgreSQL.
 
-\- personal.md: contiene la información personal y los hobbies.
+\- `models/persona.js`: contiene los métodos CRUD.
 
-\- database/conexion.js: establece la conexión con PostgreSQL.
+\- `index.js`: ejecuta las operaciones.
 
-\- models/persona.js: contiene los métodos CRUD.
-
-\- index.js: ejecuta y prueba las operaciones.
-
-\- package.json: contiene la configuración y dependencias.
+\- `package.json`: contiene la configuración y dependencias.
 
 
 
 \## Instalación
 
-
-
-Instalar las dependencias:
+Instalar las dependencias con:
 
 
 
@@ -64,13 +52,11 @@ npm install
 
 \## Configuración de la base de datos
 
-
-
-Crear una base de datos llamada tarea\_crud.
+Crear una base de datos llamada `tarea\_crud` en PostgreSQL.
 
 
 
-Crear la tabla personas:
+Crear la tabla `personas`:
 
 
 
@@ -92,7 +78,7 @@ CREATE TABLE personas (
 
 
 
-Configurar las variables de conexión en el archivo .env.
+Configurar las credenciales de PostgreSQL en el archivo `.env`.
 
 
 
@@ -100,13 +86,13 @@ Configurar las variables de conexión en el archivo .env.
 
 
 
-1\. CREATE: permite registrar personas.
+1\. \*\*CREATE:\*\* permite registrar personas.
 
-2\. READ: permite consultar personas.
+2\. \*\*READ:\*\* permite consultar personas.
 
-3\. UPDATE: permite actualizar información.
+3\. \*\*UPDATE:\*\* permite actualizar información.
 
-4\. DELETE: permite eliminar personas.
+4\. \*\*DELETE:\*\* permite eliminar personas.
 
 
 
@@ -126,9 +112,7 @@ node index.js
 
 
 
-\## Autor
+\## Autora
 
-Luna Vargas
-
-
+Luna Valentina Vargas Posada
 
